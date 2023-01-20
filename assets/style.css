@@ -1,0 +1,61 @@
+#message:empty,#modal-message:empty {
+    display: none;
+}
+
+#responseModal .modal-body .list-group>li {
+    border: 0;
+    padding: 3px 0px;
+}
+
+#responseModal .modal-body .list-group {
+    border: 1px solid #dddd;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#responseModal .modal-body p {
+    color: #575757;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 30px;
+}
+
+#responseModal .modal-body #nav-tab {
+    border: 0;
+    display: inline-flex;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#responseModal .modal-body #nav-tab button {
+    border: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 15px;
+    margin: 0;
+    background: #3264b9;
+    border-radius: 0;
+    color: #fff;
+}
+
+#responseModal .modal-body #nav-tab button:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#responseModal .modal-body #nav-tab button:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#responseModal .modal-body #nav-tab button.active {
+    background: #e2eaf6;
+    color: #3264b9;
+}
