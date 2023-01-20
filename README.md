@@ -1,0 +1,4 @@
+-> Create Database with sql provided
+-> Change USPS ACCOUNT ID in config.php & database detail as shown in screenshot
+-> screenshot https://prnt.sc/L23Kl-5Yk9Ho
+-> run index.php to run project
